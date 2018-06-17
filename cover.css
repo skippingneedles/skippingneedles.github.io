@@ -64,6 +64,10 @@ body {
   padding: 2rem;
 }
 
+.centerImage {
+     object-fit: cover;
+}
+
 
 /*
  * Header
@@ -158,10 +162,3 @@ body {
   }
 }
 
-@media (min-width: 62em) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 42rem;
-  }
-}
