@@ -73,13 +73,42 @@
             text-align: left;
             font-style: normal;
         }
-.lead {
+
+        .lead {
             text-align: center;
             font-style: normal;
             font-size: 22px;
-    font-family: Montserrat, sans-serif;
-    
+            font-family: Montserrat, sans-serif;
+
         }
+
+  #circle-shape {
+      margin: 2rem;
+  }
+
+  #circle-shape .curve {
+      width: 33%;
+      height: auto;
+      min-width: 150px;
+      float: left;
+      margin-right: 2rem;
+      border-radius: 50%;
+      -webkit-shape-outside: circle();
+      shape-outside: circle();
+  }
+
+  #circle-shape .curve-right {
+
+      width: 45%;
+      height: auto;
+      min-width: 150px;
+      float: right;
+      margin-right: -.5rem;
+      border-radius: 50%;
+      -webkit-shape-outside: circle();
+      shape-outside: circle();
+
+  }
 
         .bg-1 {
             background: #2d2d30;
@@ -90,7 +119,7 @@
             color: #fff;
         }
 
-       
+
 
         .bg-2 {
             background: #F8F9F9;
@@ -101,7 +130,7 @@
             color: #2d2d30;
         }
 
-       
+
 
         .list-group-item:first-child {
             border-top-right-radius: 0;
@@ -377,6 +406,7 @@
             <div class="row">
 
                 <div class="col-lg-6">
+                    
                     <img class="img-thumbnail" src="julie.jpg" alt="Generic placeholder image" width="300" height="300">
                     <h3>Julie Daniel</h3>
                     <h4>Co-Founder / Account Executive</h4>
